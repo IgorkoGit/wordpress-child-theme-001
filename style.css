@@ -1,0 +1,42 @@
+/*
+Theme Name:     TwentyTwentyOneChild17
+Description:    Дочірня тема для TwentyTwentyOne
+Author:         Stelmakh   
+Template:       twentytwentyone
+Version:        1.0.001
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*, :before, :after {box-sizing:border-box;}
+* {padding: 0;margin: 0;border: 0;color: #717276;}
+html{height: 100%;}
+body {background-color: #ffffff;font-family: 'Inter', sans-serif;display: flex;flex-direction: column;height: 100%;}
+.main {flex: 1 0 auto; height:auto;padding:20px 0px;}
+.footer{flex:0 0 auto;}
+.nav-link {color:inherit;}
+.nav-link.active {color:#6e61ca;}
+.step.active {color:#6e61ca;opacity: 1;}
+.step.finish {color: #04AA6D;}
+h1, h2, h3{font-weight:600;padding:7px 0px;color:#141824;}
+h1, h2{font-size:45px;}
+h3{font-size:27px;}
+.gray {padding:20px 0px;font-size: 100%;background-color:#e5e5e5;}
+label{text-align:right;}
+#regForm , #resultForm{min-height:320px;padding: 15px 0px;position:relative;}
+#regForm input {border: 1px solid #717276;border-radius:4px;}
+#regForm .error{font-size:13px;padding:5px 0px 0px 20px;color:#f01e27;}
+p , label, input , button, a{font-size:16px;padding: 8px 0px;}
+#regForm input.invalid {background-color: #ffdddd;}
+.tab {display: none;}
+button {margin: 0;padding: 15px 10px;cursor: pointer;}
+.butt1 {float:left;position:absolute;bottom:-10px;}
+#regForm .btnY, #resultForm .btnY  {background-color:#5145e3;color:#ffffff;}
+#regForm .btnW, #resultForm .btnW {background-color:#ffffff;color:#5145e3;}
+#pG {font-size:100px;}
+.step {margin: 0 auto;border: none;color: #717276;display: inline-block;}
+
+@media screen and (max-width: 768px) {
+	label{text-align:left;}
+	.main, .gray {padding:10px 0px;}
+}
